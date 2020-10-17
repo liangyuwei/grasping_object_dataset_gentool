@@ -1,0 +1,21 @@
+1 - Naming convention:
+
+The models' directories are named after the following convention: {object index}_{object name}_{object size}.
+
+
+2 - Dependency: 
+
+(1) Trimesh
+https://github.com/mikedh/trimesh (pip install trimesh)
+
+(2) Meshlab
+sudo apt-get install meshlab
+
+
+3 - Instructions:
+(1) Modify paths in ./script/tools.py;
+(2) Modify object scale;(0.1 as the unit)
+(3) If using .obj mesh models, uncomment the use of 'proc_tools.convert_obj_dae()';
+If using .dae mesh models, comment the use of convert_obj_dae(), and specify the attributes 'mesh_suffix' and 'mesh_in_path' in the function call of generate_model_folders().
+
+
