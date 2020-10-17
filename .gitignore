@@ -1,0 +1,9 @@
+*.h5
+
+*.obj
+*.mtl
+*.dae
+
+*.config
+*.sdf
+
